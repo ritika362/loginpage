@@ -1,0 +1,176 @@
+body{
+    text-align: center;
+    background-color:#f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.page{
+    background-color:ghostwhite;
+    text-align: center;
+    margin: 20%;
+    width: 20%;
+    border: 1px solid black;
+    display: block;
+    padding: 10px;
+    width: 400px;
+}
+
+.box1{
+    background-color: white;
+    display: flex; 
+}
+
+.tab1{
+    text-align: center;
+    color: #555;
+    border-top: 2px solid #0f9d58;
+    border-inline: 1px solid #ddd;
+    width: 50%;
+}
+
+.tab2{
+    text-align: center;
+    color: #888;
+    border: 1px solid transparent;
+    width: 50%;
+    background-color: #e9ebee;
+}
+
+.box2{
+    background-color: white;
+    display: block;
+    padding: 20px;
+    text-align: left;
+}
+
+.fill{
+    height: 30px;
+    width: 100%;
+    margin-block: 10px;
+}
+
+.login{
+    text-align: center;
+}
+
+.entry{
+    width: 100%;
+    display:flex;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.entry a{
+    color:grey;
+    text-decoration: none;
+    float: right;
+    margin-left: 100px;
+}
+
+.entry a:hover{
+    text-decoration: underline;
+    color: #0f9d58;
+}
+
+.text:hover{
+    color: grey;
+}
+
+button{
+    width: 90%;
+    height: 13%;
+    border: none;
+    font-family: Roboto Condensed;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: #24b65e;
+    margin-block: 20px;
+}
+
+.links{
+    text-align: center;
+}
+
+.link1{
+    width: 100%;
+    height: 40%;
+    justify-content: space-between;
+    display: flex;
+    margin-block: 20px;
+}
+.google{
+    width: 45%;
+    height: 80%;
+    color: white;
+    font-weight: 500;
+    font-family: Roboto Condensed;
+    border-radius: 5px;
+    background-color: #d64b3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+i{
+    padding: 0 20px 0 10px;
+    margin-right: 15px;
+}
+.facebook{
+    width: 45%;
+    height: 80%;
+    color: white;
+    font-weight: 500;
+    font-family: Roboto Condensed;
+    border-radius: 5px;
+    background-color: #43609c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.link2{
+    width: 100%;
+    height: 40%;
+    justify-content: space-between;
+    display: flex;
+}
+.linkedin{
+    width: 45%;
+    height: 80%;
+    color: white;
+    font-weight: 500;
+    font-family: Roboto Condensed;
+    border-radius: 5px;
+    background-color: #04659b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.github{
+    width: 45%;
+    height: 80%;
+    color: white;
+    font-weight: 500;
+    font-family: Roboto Condensed;
+    border-radius: 5px;
+    background-color: #343131;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.Create{
+    color: #0f9d58;
+    font-weight: 400;
+    font-family: Roboto Condensed;
+    margin-top: 20px;
+}
+p{
+    margin-top: 8px;
+    font-size: 11px;
+    color: #999999;
+}
